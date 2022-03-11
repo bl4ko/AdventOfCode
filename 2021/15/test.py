@@ -1,0 +1,2 @@
+def najmanjsi(koord):
+    sredisce_najmansega = koord for krog in notranji(koord): sredisce_kroga = najmanjsi(krog) if povrsina(sredisce_kroga) < povrsina(sredisce_najmanjsega): sredisce_najmanjsega = sredisce_kroga; return sredisce_najmanjsega
